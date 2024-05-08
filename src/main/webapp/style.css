@@ -1,0 +1,80 @@
+@charset "UTF-8";
+body {
+background-color:wheat;
+}
+
+.container {
+	margin-left: 35%;
+	margin-top:125px;
+	background-color: #fff;
+	padding: 25px 35px;
+	width: 500px;
+	border-radius: 25px;
+}
+
+table td,input {
+	font-size: 18px;
+	
+}
+
+input[type=text],input[type=email] {
+	width: 280px;
+	font-size: 18px;
+	padding : 10px;
+	border-radius : 8px;
+	border:1px solid grey;
+	margin-bottom: 10px;
+	margin-left : 20px;
+}
+
+#submitBtn {
+	background-color: #4CAF50;
+	color:black;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float:left;
+    margin-top:15px;
+}
+
+#resetBtn {
+	background-color: #DE0A26;
+    color: white;
+
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float:right;
+    margin-top:15px;
+}
+
+#showBtn {
+	background-color: #3614a9;
+	margin-left:80px;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight:bold;
+    margin-top:15px;
+}
+
+a:link, a:visited {
+  background-color: #0000ff;
+  color: white;
+  padding: 12px 20px;
+  margin-top:15px;
+  margin-left:15px;
+  text-align: center;
+   border: none;
+    border-radius: 4px;
+  text-decoration: none;
+  display: inline-block;
+}
+
+a:hover, a:active {
+  background-color: #2759cd;
+}

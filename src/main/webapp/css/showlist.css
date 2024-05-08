@@ -1,0 +1,29 @@
+@charset "UTF-8";
+h2 {
+	margin: 125px 0 0 35%;
+}
+
+.listTable {
+	border-collapse: collapse;
+    margin: 25px 0;
+    margin-left:35%;
+    font-size: 0.9em;
+    font-family: sans-serif;
+    min-width: 400px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+} 
+
+.listTable thead tr {
+	background-color: #000082;
+    color: #ffffff;
+    text-align: left;
+}
+
+.listTable th,.listTable td {
+	padding: 12px 15px;
+}
+
+.listTable tbody tr {
+    border-bottom: 1px solid #dddddd;
+}
+
